@@ -5,7 +5,7 @@ export default function CatList(props) {
 
     return (
         <div>
-            {props.loading ? "Loading" : cats}
+            {props.loading ? <h3>Loading</h3> : cats}
         </div>
     )
 }
